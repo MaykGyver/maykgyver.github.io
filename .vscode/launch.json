@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // https://jekyllrb.com/docs/installation/windows/
+            // If invocations of `gem` fail, please shutdown and reload all instances of vscode to get ruby&gem into your path. Then execute this launcher (F5) again.
+            "name": "Setup Preview on Windows",
+            "type": "f5anything",
+            "request": "launch",
+            "command": "winget install RubyInstallerTeam.RubyWithDevKit.3.2; gem update --system; gem install jekyll; bundle install"
+        },
+        {
+            "name": "Live Preview",
+            "type": "f5anything",
+            "request": "launch",
+            "command": "start http://localhost:4000; jekyll server"
+        },
+    ]
+}
