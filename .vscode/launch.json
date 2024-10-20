@@ -10,13 +10,13 @@
             "name": "Setup Preview on Windows",
             "type": "f5anything",
             "request": "launch",
-            "command": "winget install RubyInstallerTeam.RubyWithDevKit.3.2; gem update --system; gem install jekyll; bundle install"
+            "command": "winget install RubyInstallerTeam.RubyWithDevKit.3.2; gem update --system; bundle install"
         },
         {
             "name": "Live Preview",
             "type": "f5anything",
             "request": "launch",
-            "command": "start http://localhost:4000; jekyll server"
+            "command": "start http://localhost:4000; bundle exec jekyll server"
         },
     ]
 }
