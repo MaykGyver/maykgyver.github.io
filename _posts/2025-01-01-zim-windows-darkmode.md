@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Dark Mode for Zim Desktop Wiki on Windows
