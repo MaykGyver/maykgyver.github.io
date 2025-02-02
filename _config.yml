@@ -2,3 +2,6 @@ title: 4⦚🦆⚙
 description: Random Notes on Adventures with Technology
 github_username:  MaykGyver
 theme: minima
+ignore_theme_config: true
+sass:
+  quiet_deps: true
